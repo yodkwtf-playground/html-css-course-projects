@@ -1,268 +1,373 @@
 <!DOCTYPE html>
 <html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>My Portfolio</title>
+    <!-- style CSS -->
+    <link rel="stylesheet" href="styles.css" />
+    <!-- icons -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.1/css/all.min.css"
+      integrity="sha512-+4zCK9k+qNFUR5X+cKL9EIR+ZOhtIloNl9GIKS57V1MyNsYpYcUrUeQc9vNfzsWfV28IaLL3i96P9sdNyeRssA=="
+      crossorigin="anonymous"
+    />
+    <!-- google fonts -->
+    <link
+      rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Fondamento&family=Roboto&display=swap"
+    />
+    <!-- favicon -->
+    <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon" />
+  </head>
 
-<head>
-  <meta charset="UTF-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <meta http-equiv="X-UA-Compatible" content="ie=edge" />
-  <title>My Portfolio</title>
-  <!-- style CSS -->
-  <link rel="stylesheet" href="styles.css">
-  <!-- fontawesome -->
-  <link rel="stylesheet" href="./Font Awesome/css/all.min.css">
-  <!-- google fonts -->
-  <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Fondamento&family=Roboto&display=swap">
-  <!-- favicon -->
-  <link rel="shortcut icon" href="./images/favicon.ico" type="image/x-icon">
-</head>
-
-<body>
-
-
-  <!-- HEADER -->
-  <header class="header" id="header">
-
-  <!-- navbar -->
-  <nav class="nav">
-
-    <div class="nav-header">
-      <img src="./images/favicon.ico" alt="logo" class="nav-logo">
-      <span class="nav-btn"><i class="fas fa-bars"></i></span>
-    </div>
-
-    <ul class="nav-links">
-      <li><a href="#header" class="nav-link">home</a></li>
-      <li><a href="#about" class="nav-link">about</a></li>
-      <li><a href="#services" class="nav-link">services</a></li>
-      <li><a href="#projects" class="nav-link">projects</a></li>
-      <li><a href="#contact" class="nav-link">contact</a></li>
-    </ul>
-  </nav>
-  <!-- end of navbar -->
-
-  <!-- hero -->
-  <section class="hero" id="hero">
-
-    <div class="hero-banner">
-      <img src="./images/my-image.jpg" alt="My image" class="hero-image">
-      <h1 class="hero-title">I am Deekayy</h1>
-      <h3 class="hero-subtitle">developer <i class="fas fa-angle-double-right"></i> designer <i class="fas fa-angle-double-right"></i> writer</h3>
-    </div>
-
-  </section>
-  <!-- end of hero -->
-  
-  </header>
-  <!-- END OF HEADER -->
-
-
-
-
-  <!-- ABOUT -->
-  <section class="section about" id="about">
-
-    <div class="section-center about-center">
-
-      <!-- about-image -->
-      <article class="about-img">
-        <img src="./images/my-image.jpg" alt="about image" class="about-image">
-      </article>
-
-      <!-- about info -->
-      <article class="about-info">
-        <h1 class="about-title section-title">about me</h1>
-        <p class="about-text">I am an 18 year student who loves to work with HTML and CSS. I am currently leanring Javascript. I am currently pursuing B-Tech in Computer Science from the Northcap University, gurgaon.</p>
-        <div class="about-links">
-          <a href="#contact" class="btn about-btn dark-btn">hire me</a>
-          <a href="#footer" class="btn about-btn light-btn">know more</a>
+  <body>
+    <!-- HEADER -->
+    <header class="header" id="header">
+      <!-- navbar -->
+      <nav class="nav">
+        <div class="nav-header">
+          <img src="./images/favicon.ico" alt="logo" class="nav-logo" />
+          <span class="nav-btn"><i class="fas fa-bars"></i></span>
         </div>
-      </article>
 
-    </div>
+        <ul class="nav-links">
+          <li><a href="#header" class="nav-link">home</a></li>
+          <li><a href="#about" class="nav-link">about</a></li>
+          <li><a href="#services" class="nav-link">services</a></li>
+          <li><a href="#projects" class="nav-link">projects</a></li>
+          <li><a href="#contact" class="nav-link">contact</a></li>
+        </ul>
+      </nav>
+      <!-- end of navbar -->
 
-  </section>
-  <!-- END OF ABOUT -->
-
-
-
-
-  <!-- SERVICES  -->
-  <section class="section services" id="services">
-
-    <h1 class="services-title section-title">services</h1>
-
-    <div class="section-center services-center">
-
-      <!-- single service -->
-      <article class="service">
-        <span class="service-icon"><i class="fas fa-calendar-times"></i></span>
-        <h3 class="service-title">punctual</h3>
-        <p class="service-text">I always make sure that I finish my projects on time and avoid procrastination. I value time and follow a strict routine for everything I do.</p>
-      </article>
-      <!-- end of single service -->
-
-      <!-- single service -->
-      <article class="service">
-        <span class="service-icon"><i class="fas fa-briefcase"></i></span>
-        <h3 class="service-title">hardworking</h3>
-        <p class="service-text">I am extremly hardworking. I absolutely waste no time when I'm working. I have designed 9 websites in last one month as a result of this.</p>
-      </article>
-      <!-- end of single service -->
-
-      <!-- single service -->
-      <article class="service">
-        <span class="service-icon"><i class="fas fa-rocket"></i></span>
-        <h3 class="service-title">creative</h3>
-        <p class="service-text">I have a very creative mind which can also be seen in the websites I have designed. I also like to sketch a lot.</p>
-      </article>
-      <!-- end of single service -->
-
-      <!-- single service -->
-      <article class="service">
-        <span class="service-icon"><i class="fas fa-laptop"></i></span>
-        <h3 class="service-title">web developer</h3>
-        <p class="service-text">I am learning new languages one by one. I aspire to learn most of the front as well as back languages by the time I graduate.</p>
-      </article>
-      <!-- end of single service -->
-
-      <!-- single service -->
-      <article class="service">
-        <span class="service-icon"><i class="fas fa-edit"></i></span>
-        <h3 class="service-title">content writer</h3>
-        <p class="service-text">I do freelance content writing time to time. I like writing about general issues faced by our modern society.</p>
-      </article>
-      <!-- end of single service -->
-
-      <!-- single service -->
-      <article class="service">
-        <span class="service-icon"><i class="fas fa-code"></i></span>
-        <h3 class="service-title">web designer</h3>
-        <p class="service-text">I am designing websites via HTML/CSS and Javascript for quite some now. I can design even the most complex designs easily.</p>
-      </article>
-      <!-- end of single service -->
-
-    </div>
-  </section>
-  <!-- END OF SERVICES -->
-
-
-
-
-  <!-- PROJECTS  -->
-  <section class="section projects" id="projects">
-
-    <h1 class="projects-title section-title">projects</h1>
-
-    <div class="section-center projects-center">
-
-      <!-- single project -->
-      <article class="project">
-        <img src="./images/teapot-cafe.PNG" alt="tea station" class="project-image">
-        <a href="https://teapotcafe.netlify.app/" target="_blank" class="project-link"><i class="fas fa-search"></i></a>
-      </article>
-      <!-- end of single project -->
-
-      <!-- single project -->
-      <article class="project">
-        <img src="./images/backroads-travels.PNG" alt="tour company" class="project-image">
-        <a href="https://backroadstravels.netlify.app/" target="_blank" class="project-link"><i class="fas fa-search"></i></a>
-      </article>
-      <!-- end of single project -->
-
-      <!-- single project -->
-      <article class="project">
-        <img src="./images/grid-mini-projects.PNG" alt="css grid projects" class="project-image">
-        <a href="https://gridprojects.netlify.app/" target="_blank" class="project-link"><i class="fas fa-search"></i></a>
-      </article>
-      <!-- end of single project -->
-
-      <!-- single project -->
-      <article class="project">
-        <img src="./images/basic-fortfolio.PNG" alt="sample portfolio" class="project-image">
-        <a href="https://basicportfolio.netlify.app/" target="_blank" class="project-link"><i class="fas fa-search"></i></a>
-      </article>
-      <!-- end of single project -->
-
-      <!-- single project -->
-      <article class="project">
-        <img src="./images/titans-digital.PNG" alt="web agency" class="project-image">
-        <a href="https://titansdigital.netlify.app/" target="_blank" class="project-link"><i class="fas fa-search"></i></a>
-      </article>
-      <!-- end of single project -->
-
-      <!-- single project -->
-      <article class="project">
-        <img src="./images/coding-fr.PNG" alt="web agency" class="project-image">
-        <a href="https://codingfr.netlify.app/" target="_blank" class="project-link"><i class="fas fa-search"></i></a>
-      </article>
-      <!-- end of single project -->
-
-      <!-- single project -->
-      <article class="project">
-        <img src="./images/young-at-art.PNG" alt="art academy" class="project-image">
-        <a href="https://youngatart.netlify.app/" target="_blank" class="project-link"><i class="fas fa-search"></i></a>
-      </article>
-      <!-- end of single project -->
-
-      <!-- single project -->
-      <article class="project">
-        <img src="./images/saints-of-shows.PNG" alt="show agency" class="project-image">
-        <a href="https://saintsofshows.netlify.app/" target="_blank" class="project-link"><i class="fas fa-search"></i></a>
-      </article>
-      <!-- end of single project -->
-
-    </div>
-
-  </section>
-  <!-- END OF PROJECTS -->
-
-
-
-
-  <!-- CONTACT  -->
-  <section class="section contact" id="contact">
-
-    <h1 class="contact-title section-title">contact</h1>
-
-    <div class="section-center contact-center">
-
-      <form action="https://formspree.io/meqrrlge" method="POST">
-        <div class="form-header">
-          <input type="text" name="Name" placeholder="Name" class="form-item">
-          <input type="email" name="EmailId" placeholder="Email" class="form-item">
+      <!-- hero -->
+      <section class="hero" id="hero">
+        <div class="hero-banner">
+          <img src="./images/my-image.jpg" alt="My image" class="hero-image" />
+          <h1 class="hero-title">I am Deekayy</h1>
+          <h3 class="hero-subtitle">
+            developer <i class="fas fa-angle-double-right"></i> designer
+            <i class="fas fa-angle-double-right"></i> writer
+          </h3>
         </div>
-        <textarea name="Message" rows="6" placeholder="How can I help you?" class="form-item"></textarea>
-        <button type="submit" class="btn form-btn"><i class="fas fa-plane"></i> send message</button>
-      </form>
+      </section>
+      <!-- end of hero -->
+    </header>
+    <!-- END OF HEADER -->
 
-    </div>
-  </section>
-  <!-- END OF CONTACT -->
+    <!-- ABOUT -->
+    <section class="section about" id="about">
+      <div class="section-center about-center">
+        <!-- about-image -->
+        <article class="about-img">
+          <img
+            src="./images/my-image.jpg"
+            alt="about image"
+            class="about-image"
+          />
+        </article>
 
+        <!-- about info -->
+        <article class="about-info">
+          <h1 class="about-title section-title">about me</h1>
+          <p class="about-text">
+            I am an 18 year student who loves to work with HTML and CSS. I am
+            currently leanring Javascript. I am currently pursuing B-Tech in
+            Computer Science from the Northcap University, gurgaon.
+          </p>
+          <div class="about-links">
+            <a href="#contact" class="btn about-btn dark-btn">hire me</a>
+            <a href="#footer" class="btn about-btn light-btn">know more</a>
+          </div>
+        </article>
+      </div>
+    </section>
+    <!-- END OF ABOUT -->
 
+    <!-- SERVICES  -->
+    <section class="section services" id="services">
+      <h1 class="services-title section-title">services</h1>
 
+      <div class="section-center services-center">
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon"
+            ><i class="fas fa-calendar-times"></i
+          ></span>
+          <h3 class="service-title">punctual</h3>
+          <p class="service-text">
+            I always make sure that I finish my projects on time and avoid
+            procrastination. I value time and follow a strict routine for
+            everything I do.
+          </p>
+        </article>
+        <!-- end of single service -->
 
-  <!-- FOOTER  -->
-  <section class="footer" id="footer">
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon"><i class="fas fa-briefcase"></i></span>
+          <h3 class="service-title">hardworking</h3>
+          <p class="service-text">
+            I am extremly hardworking. I absolutely waste no time when I'm
+            working. I have designed 9 websites in last one month as a result of
+            this.
+          </p>
+        </article>
+        <!-- end of single service -->
 
-    <ul class="footer-icons">
-      <li><a href="https://www.instagram.com/yodkwtf" class="footer-icon"><i class="fab fa-instagram"></i></a></li>
-      <li><a href="https://twitter.com/yodkwtf" class="footer-icon"><i class="fab fa-twitter"></i></a></li>
-      <li><a href="https://www.linkedin.com/in/durgesh-chaudhary-4516491b0/" class="footer-icon"><i class="fab fa-linkedin"></i></a></li>
-      <li><a href="https://www.reddit.com/user/yodkwtf" class="footer-icon"><i class="fab fa-github"></i></a></li>
-    </ul>
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon"><i class="fas fa-rocket"></i></span>
+          <h3 class="service-title">creative</h3>
+          <p class="service-text">
+            I have a very creative mind which can also be seen in the websites I
+            have designed. I also like to sketch a lot.
+          </p>
+        </article>
+        <!-- end of single service -->
 
-  </section>
-  <!-- END OF FOOTER -->
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon"><i class="fas fa-laptop"></i></span>
+          <h3 class="service-title">web developer</h3>
+          <p class="service-text">
+            I am learning new languages one by one. I aspire to learn most of
+            the front as well as back languages by the time I graduate.
+          </p>
+        </article>
+        <!-- end of single service -->
 
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon"><i class="fas fa-edit"></i></span>
+          <h3 class="service-title">content writer</h3>
+          <p class="service-text">
+            I do freelance content writing time to time. I like writing about
+            general issues faced by our modern society.
+          </p>
+        </article>
+        <!-- end of single service -->
 
-  <!-- Jquery-->
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+        <!-- single service -->
+        <article class="service">
+          <span class="service-icon"><i class="fas fa-code"></i></span>
+          <h3 class="service-title">web designer</h3>
+          <p class="service-text">
+            I am designing websites via HTML/CSS and Javascript for quite some
+            now. I can design even the most complex designs easily.
+          </p>
+        </article>
+        <!-- end of single service -->
+      </div>
+    </section>
+    <!-- END OF SERVICES -->
 
-  <!-- Javascript -->
-  <script src="script.js"></script>
+    <!-- PROJECTS  -->
+    <section class="section projects" id="projects">
+      <h1 class="projects-title section-title">projects</h1>
 
+      <div class="section-center projects-center">
+        <!-- single project -->
+        <article class="project">
+          <img
+            src="./images/teapot-cafe.PNG"
+            alt="tea station"
+            class="project-image"
+          />
+          <a
+            href="https://teapotcafe.netlify.app/"
+            target="_blank"
+            class="project-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </article>
+        <!-- end of single project -->
 
-</body>
+        <!-- single project -->
+        <article class="project">
+          <img
+            src="./images/backroads-travels.PNG"
+            alt="tour company"
+            class="project-image"
+          />
+          <a
+            href="https://backroadstravels.netlify.app/"
+            target="_blank"
+            class="project-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </article>
+        <!-- end of single project -->
 
+        <!-- single project -->
+        <article class="project">
+          <img
+            src="./images/grid-mini-projects.PNG"
+            alt="css grid projects"
+            class="project-image"
+          />
+          <a
+            href="https://gridprojects.netlify.app/"
+            target="_blank"
+            class="project-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </article>
+        <!-- end of single project -->
+
+        <!-- single project -->
+        <article class="project">
+          <img
+            src="./images/basic-fortfolio.PNG"
+            alt="sample portfolio"
+            class="project-image"
+          />
+          <a
+            href="https://basicportfolio.netlify.app/"
+            target="_blank"
+            class="project-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </article>
+        <!-- end of single project -->
+
+        <!-- single project -->
+        <article class="project">
+          <img
+            src="./images/titans-digital.PNG"
+            alt="web agency"
+            class="project-image"
+          />
+          <a
+            href="https://titansdigital.netlify.app/"
+            target="_blank"
+            class="project-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </article>
+        <!-- end of single project -->
+
+        <!-- single project -->
+        <article class="project">
+          <img
+            src="./images/coding-fr.PNG"
+            alt="web agency"
+            class="project-image"
+          />
+          <a
+            href="https://codingfr.netlify.app/"
+            target="_blank"
+            class="project-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </article>
+        <!-- end of single project -->
+
+        <!-- single project -->
+        <article class="project">
+          <img
+            src="./images/young-at-art.PNG"
+            alt="art academy"
+            class="project-image"
+          />
+          <a
+            href="https://youngatart.netlify.app/"
+            target="_blank"
+            class="project-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </article>
+        <!-- end of single project -->
+
+        <!-- single project -->
+        <article class="project">
+          <img
+            src="./images/saints-of-shows.PNG"
+            alt="show agency"
+            class="project-image"
+          />
+          <a
+            href="https://saintsofshows.netlify.app/"
+            target="_blank"
+            class="project-link"
+            ><i class="fas fa-search"></i
+          ></a>
+        </article>
+        <!-- end of single project -->
+      </div>
+    </section>
+    <!-- END OF PROJECTS -->
+
+    <!-- CONTACT  -->
+    <section class="section contact" id="contact">
+      <h1 class="contact-title section-title">contact</h1>
+
+      <div class="section-center contact-center">
+        <form action="https://formspree.io/meqrrlge" method="POST">
+          <div class="form-header">
+            <input
+              type="text"
+              name="Name"
+              placeholder="Name"
+              class="form-item"
+            />
+            <input
+              type="email"
+              name="EmailId"
+              placeholder="Email"
+              class="form-item"
+            />
+          </div>
+          <textarea
+            name="Message"
+            rows="6"
+            placeholder="How can I help you?"
+            class="form-item"
+          ></textarea>
+          <button type="submit" class="btn form-btn">
+            <i class="fas fa-plane"></i> send message
+          </button>
+        </form>
+      </div>
+    </section>
+    <!-- END OF CONTACT -->
+
+    <!-- FOOTER  -->
+    <section class="footer" id="footer">
+      <ul class="footer-icons">
+        <li>
+          <a href="https://www.instagram.com/yodkwtf" class="footer-icon"
+            ><i class="fab fa-instagram"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://twitter.com/yodkwtf" class="footer-icon"
+            ><i class="fab fa-twitter"></i
+          ></a>
+        </li>
+        <li>
+          <a
+            href="https://www.linkedin.com/in/durgesh-chaudhary-4516491b0/"
+            class="footer-icon"
+            ><i class="fab fa-linkedin"></i
+          ></a>
+        </li>
+        <li>
+          <a href="https://www.reddit.com/user/yodkwtf" class="footer-icon"
+            ><i class="fab fa-github"></i
+          ></a>
+        </li>
+      </ul>
+    </section>
+    <!-- END OF FOOTER -->
+
+    <!-- Jquery-->
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+
+    <!-- Javascript -->
+    <script src="script.js"></script>
+  </body>
 </html>
